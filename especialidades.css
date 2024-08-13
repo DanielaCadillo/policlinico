@@ -1,0 +1,41 @@
+ /* Estilos adicionales para efectos hover */
+ .btn:hover, .nav-link:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease-in-out;
+  }
+  .logo:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  .especialidad {
+    margin-bottom: 30px; /* Espacio entre cada especialidad */
+  }
+  .especialidad h3 {
+    margin-top: 20px; /* Espacio sobre el título de la especialidad */
+    color: #002b36; /* Verde oscuro (tono original) */
+  }
+  .especialidad img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+  }
+  .especialidad img:hover {
+    transform: scale(1.05); /* Escalar la imagen ligeramente al pasar el cursor */
+  }
+
+  /* Estilos para hacer responsive */
+  @media (max-width: 768px) {
+    .especialidad h3 {
+      font-size: 24px; /* Tamaño de fuente reducido para dispositivos móviles */
+    }
+    .especialidad p {
+      font-size: 14px; /* Tamaño de fuente reducido para dispositivos móviles */
+    }
+  }
+
+  /* Colores para el encabezado y pie de página */
+  .navbar, footer {
+    background-color: #196070; /* Verde marino */
+  }

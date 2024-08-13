@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7ca0c2;
+  color: #ffffff;
+}
+
+/* Estilos del encabezado */
+.navbar {
+  background-color: #196070;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Estilos del contenido principal */
+.container {
+  margin-top: 40px;
+  background-color: #196070;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #196070;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 300px; /* Ajusta el ancho de cada sección según sea necesario */
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.footer-section p {
+  font-size: 0.9em;
+}
+

@@ -1,0 +1,23 @@
+/* Estilos adicionales para la página Nosotros */
+.mision, .vision {
+    background-color: #f0f0f0; /* Color de fondo para Misión y Visión */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .mision h2, .vision h2 {
+    color: #1e2f41; /* Color del título */
+    margin-bottom: 20px;
+  }
+  .mision p, .vision p {
+    color: #333; /* Color del texto */
+  }
+  .doctor-img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }

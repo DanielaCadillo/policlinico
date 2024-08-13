@@ -1,0 +1,14 @@
+/* Estilos adicionales para personalización */
+.bg-marino {
+    background-color: #0B3C5D; /* Color marino oscuro */
+    color: white; /* Texto en color blanco */
+  }
+
+  /* Estilo para achicar las imágenes del carrusel */
+  .carousel-item img {
+max-width: 200%;
+width: 200px;
+height: 300;
+max-height: 300px; /* Altura máxima ajustada para las imágenes */
+object-fit: contain; /* Ajusta la imagen dentro del contenedor sin recortar */
+}
